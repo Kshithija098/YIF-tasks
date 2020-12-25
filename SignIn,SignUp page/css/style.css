@@ -8,6 +8,13 @@ legend {
 }
 .container {
 	padding: 10px;
+	width: 560px;
+	margin: 100px 0px 350px 0;
+}
+.container1 {
+	padding: 20px;
+	width: 600px;
+	
 }
 .box {
   display: flex;
@@ -29,15 +36,18 @@ h1 {
 	color: white;
 }
 
-#b {
-	margin-left: 10px;
+.sub {
+
+	height: 30px;
+	width: 70px;
+	background-color: blue;
 }
 
 #f1 {
-	background-color: orange;
+	background-color: rgba(255,140,0,0.8);
 }
 #f2 {
-	background-color: orange;
+	background-color: rgba(255,140,0,0.8);
 }
 
 #rcorners3 {
@@ -62,6 +72,11 @@ h1 {
 	color: #333;
 
 }
+.social-icon1{
+	display: flex;
+	margin-top: 0.5rem;	
+
+}
 .social-icon{
 	display: flex;
 	margin-top: 0.5rem;	
@@ -76,7 +91,23 @@ h1 {
 	line-height: 35px;
 	margin-right: 0.5rem;
 	transition: 0.3s;	
+
 }
 .social-icon a:hover{
+	transform: scale(1.05);
+}
+.social-icon1 a{
+	width: 35px;
+	height: 35px;
+	border-radius: 5px;
+	background: black;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 0.5rem;
+	transition: 0.3s;
+	position: relative;	
+}
+.social-icon1 a:hover{
 	transform: scale(1.05);
 }
